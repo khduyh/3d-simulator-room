@@ -8,6 +8,9 @@ function Logo() {
     <Wrapper>
       <Container>
         <Title>
+          <Circle>
+            <MiniCircle />
+          </Circle>
           <span>Spline</span>
         </Title>
       </Container>
@@ -43,10 +46,30 @@ const Container = styled.div`
 `;
 
 const Title = styled(TextStyles.H2)`
+  display: flex;
   color: #ffffff;
   padding: 12px 20px 12px 55px;
 
   span {
     color: #bebbff;
   }
+`;
+
+const Circle = styled.div`
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(180deg, #3116c7 0%, #a07bff 100%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 40px;
+  margin: 2px 10px;
+`;
+
+const MiniCircle = styled.div`
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(180deg, #9a97ff 0%, #eee9fe 100%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 4px auto;
 `;
