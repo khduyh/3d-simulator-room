@@ -12,7 +12,7 @@ function PlayButton(props) {
         <Circle>
           <MiniCircle />
         </Circle>
-        <Title>Start Simulator</Title>
+        <Title>Try Simulator</Title>
       </Container>
     </Wrapper>
   );

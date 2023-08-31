@@ -204,7 +204,7 @@ const SplineContainer = styled.div`
   }
 
   .closeButton {
-    top: 54%;
+    top: 49.5%;
     left: -32px;
   }
 
