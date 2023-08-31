@@ -22,7 +22,7 @@ export default function App() {
       <ContentWrapper>
         <Container>
           <TextContainer>
-            <Title>3D Room Simutor</Title>
+            <Title>3D Room Simulator</Title>
             <Description>
               Learn how to create a 3D scene in Spline with some interactions
               like mouse events and dark mode state.
