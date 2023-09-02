@@ -70,6 +70,7 @@ const LogoContainer = styled.div`
 `;
 
 const TextContainer = styled.div`
+  margin-top: 2%;
   display: grid;
   gap: 24px;
   max-width: 460px;
@@ -204,7 +205,7 @@ const SplineContainer = styled.div`
   }
 
   .closeButton {
-    top: 49.5%;
+    top: 49%;
     left: -32px;
   }
 
